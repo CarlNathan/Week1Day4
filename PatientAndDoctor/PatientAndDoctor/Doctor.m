@@ -38,7 +38,8 @@
 - (Perscription *) writePerscription: (Patient *) patient Symptoms: (NSString *) symptoms{
     if ([self.acceptedPatients containsObject:patient]) {
         if ([self.perscriptions objectForKey: symptoms]) {
-            NSLog(@"Doctor: I've written you a perscription.  I put it in your perscription array!");
+            Perscription *p = self.perscriptions[symptoms];
+            NSLog(@"Doctor: I've written you a perscription for %@.  I put it in your perscription array!", p.name);
             NSLog(@"Me: Thanks, Doc!");
             return [self.perscriptions objectForKey: symptoms];
         } else {
