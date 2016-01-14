@@ -15,7 +15,6 @@
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSString *specialization;
 @property (nonatomic) NSMutableArray *acceptedPatients;
-@property (nonatomic) NSDictionary *perscriptions;
 
 + (instancetype) doctorWithName: (NSString *) name Specialization: (NSString *) specialization;
 

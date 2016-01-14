@@ -9,6 +9,12 @@
 #import "Doctor.h"
 #import "Patient.h"
 
+@interface Doctor ()
+
+@property (nonatomic) NSDictionary *perscriptions;
+
+@end
+
 @implementation Doctor
 
 + (instancetype) doctorWithName: (NSString *) name Specialization: (NSString *) specialization{

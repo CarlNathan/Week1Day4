@@ -29,7 +29,7 @@
 - (void) querryDoctor: (Doctor *) doctor{
     NSLog(@"Me: Hey doc, what's your name and specialization?");
     NSLog(@"Doctor: I'm %@ and my specialy is %@.", doctor.name, doctor.specialization);
-    NSLog(@"Me: great?");
+    NSLog(@"Me: great");
     [doctor querryPatient:self];
 
 }
