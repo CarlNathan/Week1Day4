@@ -10,4 +10,12 @@
 
 @implementation Lawyer
 
++(instancetype) lawyerWithSpecialty: (Specialty) specialty Rate: (NSNumber *) rate{
+    Lawyer *lawyer = [[Lawyer alloc] init];
+    specialty = specialty;
+    rate = rate;
+    return lawyer;
+}
+
+
 @end

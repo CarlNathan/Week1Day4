@@ -10,6 +10,8 @@
 		ED2667C81C48345200ECA94A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2667C71C48345200ECA94A /* main.m */; };
 		ED2667D01C48345F00ECA94A /* Lawyer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2667CF1C48345F00ECA94A /* Lawyer.m */; };
 		ED2667D31C4834BF00ECA94A /* Practice.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2667D21C4834BF00ECA94A /* Practice.m */; };
+		ED2667D61C483FDA00ECA94A /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2667D51C483FDA00ECA94A /* Client.m */; };
+		ED2667D91C48406B00ECA94A /* Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2667D81C48406B00ECA94A /* Associate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		ED2667CF1C48345F00ECA94A /* Lawyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lawyer.m; sourceTree = "<group>"; };
 		ED2667D11C4834BF00ECA94A /* Practice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Practice.h; sourceTree = "<group>"; };
 		ED2667D21C4834BF00ECA94A /* Practice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Practice.m; sourceTree = "<group>"; };
+		ED2667D41C483FDA00ECA94A /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		ED2667D51C483FDA00ECA94A /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		ED2667D71C48406B00ECA94A /* Associate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Associate.h; sourceTree = "<group>"; };
+		ED2667D81C48406B00ECA94A /* Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Associate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 				ED2667CF1C48345F00ECA94A /* Lawyer.m */,
 				ED2667D11C4834BF00ECA94A /* Practice.h */,
 				ED2667D21C4834BF00ECA94A /* Practice.m */,
+				ED2667D41C483FDA00ECA94A /* Client.h */,
+				ED2667D51C483FDA00ECA94A /* Client.m */,
+				ED2667D71C48406B00ECA94A /* Associate.h */,
+				ED2667D81C48406B00ECA94A /* Associate.m */,
 			);
 			path = LawyerUp;
 			sourceTree = "<group>";
@@ -130,6 +140,8 @@
 			files = (
 				ED2667D31C4834BF00ECA94A /* Practice.m in Sources */,
 				ED2667C81C48345200ECA94A /* main.m in Sources */,
+				ED2667D61C483FDA00ECA94A /* Client.m in Sources */,
+				ED2667D91C48406B00ECA94A /* Associate.m in Sources */,
 				ED2667D01C48345F00ECA94A /* Lawyer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

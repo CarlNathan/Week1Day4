@@ -7,12 +7,13 @@
 //
 
 #import "Practice.h"
+#import "Lawyer.h"
 
 @implementation Practice
 
 + (instancetype) practice{
     Practice *practice = [[Practice alloc] init];
-    practice.rates = @{@"Family": @200.00, @"Patent": @380.50, @"Criminal": @405.99, @"Corporate": @400.00};
+    practice.rates = @{@1: @200.00, @2: @380.50, @3: @405.99, @4: @400.00};
     return practice;
 }
 

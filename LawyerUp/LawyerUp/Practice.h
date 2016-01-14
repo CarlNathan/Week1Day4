@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class Lawyer;
+
 typedef NS_ENUM(NSInteger, Specialty) {
     Family = 1,
     Patent = 2,
@@ -18,7 +20,7 @@ typedef NS_ENUM(NSInteger, Specialty) {
 
 @interface Practice : NSObject
 
-@property (nonatomic, strong) NSArray *lawyers;
+@property (nonatomic, strong) NSMutableArray *lawyers;
 @property (nonatomic, strong) NSDictionary *rates;
 
 + (instancetype) practice;
