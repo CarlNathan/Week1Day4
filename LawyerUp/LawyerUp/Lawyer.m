@@ -17,5 +17,10 @@
     return lawyer;
 }
 
+-(void)addClient: (Client *)client{
+    [self.delegate addClientToClientList:client forLawyer:self];
+    }
+
+
 
 @end

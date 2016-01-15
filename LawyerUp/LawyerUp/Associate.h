@@ -11,15 +11,11 @@
 #import "Lawyer.h"
 
 
-@protocol LawyerDelegate <NSObject>
 
--(void)addClientToClientList:(Client *)client forLawyer:(Lawyer *)lawyer;
 
--(NSInteger)payableAmountForClient:(Client *)client forLawyer:(Lawyer *)lawyer;
+@interface Associate : NSObject <AssociateDelegate>
 
-@end
-
-@interface Associate : NSObject <LawyerDelegate>
+@property (nonatomic, weak) id <AssociateDelegate> delegate;
 
 
 @end

@@ -1,15 +1,16 @@
 //
-//  Associate.m
+//  whatever.m
 //  LawyerUp
 //
 //  Created by Carl Udren on 1/14/16.
 //  Copyright © 2016 Carl Udren. All rights reserved.
 //
 
-#import "Associate.h"
+#import "whatever.h"
 #import "Lawyer.h"
+#import "Client.h"
 
-@implementation Associate
+@implementation whatever
 
 -(void)addClientToClientList:(Client *)client forLawyer:(Lawyer *)lawyer{
     [lawyer.clientList addObject:client];
@@ -23,8 +24,10 @@
         return [lawyer.rate integerValue] * 10;
     } else {
         return [lawyer.rate integerValue] * 25;
-
+        
     }
 }
+
+
 
 @end

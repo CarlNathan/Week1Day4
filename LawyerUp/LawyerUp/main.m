@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "Practice.h"
 #import "Lawyer.h"
+#import "whatever.h"
+#import "Associate.h"
 
 int main(int argc, const char * argv[]) {
    {
@@ -22,7 +24,7 @@ int main(int argc, const char * argv[]) {
        Associate *associateBill = [[Associate alloc] init];
        Associate *associateJill = [[Associate alloc] init];
        lawyerJim.delegate = associateBill;
-       lawyerEmily.delegate = associateJill;
+       //lawyerEmily.delegate = associateJill;
        
        Client *client1 = [[Client alloc] init];
        client1.name = @"Sally";
@@ -39,9 +41,12 @@ int main(int argc, const char * argv[]) {
        lawyerEmily.rate = practice.rates[@(Corporate)];
        
        [lawyerJim addClient:client1];
-       [lawyerEmily addClient:client2];
-       NSInteger owed1 = [lawyerJim getPayableAmountForClient:client1];
-       NSInteger owed2 = [lawyerEmily getPayableAmountForClient:client2];
+       whatever *what = [[whatever alloc] init];
+       //[what addClientToClientList:client1 forLawyer:lawyerJim];
+
+       //[lawyerEmily addClient:client2];
+       //NSInteger owed1 = [lawyerJim getPayableAmountForClient:client1];
+       //NSInteger owed2 = [lawyerEmily getPayableAmountForClient:client2];
     }
     return 0;
 }

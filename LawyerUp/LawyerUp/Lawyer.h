@@ -8,7 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import "Practice.h"
-#import "Associate.h"
+#import "Client.h"
+
+@class Associate;
+
+@protocol AssociateDelegate <NSObject>
+
+-(void)addClientToClientList:(Client *)client forLawyer:(Lawyer *)lawyer;
+
+-(NSInteger)payableAmountForClient:(Client *)client forLawyer:(Lawyer *)lawyer;
+
+@end
 
 @interface Lawyer : NSObject
 
@@ -16,12 +26,12 @@
 @property (nonatomic, assign) Specialty specialty;
 @property (nonatomic, strong) NSNumber *rate;
 @property (nonatomic, strong) NSMutableArray *clientList;
-@property (nonatomic, strong)  id<LawyerDelegate> delegate;
+@property (nonatomic, weak) id <AssociateDelegate> delegate;
 
 +(instancetype) lawyerWithSpecialty: (Specialty) specialty Rate: (NSNumber *) rate;
 
--(void)addClient:(Client *)client;
+-(void)addClient: (Client *)client;
 
--(NSInteger)getPayableAmountForClient:(Client *)client;
+-(NSInteger)payableAmountForClient:(Client *)client;
 
 @end

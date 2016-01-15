@@ -12,6 +12,7 @@
 		ED2667D31C4834BF00ECA94A /* Practice.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2667D21C4834BF00ECA94A /* Practice.m */; };
 		ED2667D61C483FDA00ECA94A /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2667D51C483FDA00ECA94A /* Client.m */; };
 		ED2667D91C48406B00ECA94A /* Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2667D81C48406B00ECA94A /* Associate.m */; };
+		EDAB88931C48663F005271F4 /* whatever.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB88921C48663F005271F4 /* whatever.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		ED2667D51C483FDA00ECA94A /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
 		ED2667D71C48406B00ECA94A /* Associate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Associate.h; sourceTree = "<group>"; };
 		ED2667D81C48406B00ECA94A /* Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Associate.m; sourceTree = "<group>"; };
+		EDAB88911C48663F005271F4 /* whatever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whatever.h; sourceTree = "<group>"; };
+		EDAB88921C48663F005271F4 /* whatever.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = whatever.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				ED2667D51C483FDA00ECA94A /* Client.m */,
 				ED2667D71C48406B00ECA94A /* Associate.h */,
 				ED2667D81C48406B00ECA94A /* Associate.m */,
+				EDAB88911C48663F005271F4 /* whatever.h */,
+				EDAB88921C48663F005271F4 /* whatever.m */,
 			);
 			path = LawyerUp;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 				ED2667D31C4834BF00ECA94A /* Practice.m in Sources */,
 				ED2667C81C48345200ECA94A /* main.m in Sources */,
 				ED2667D61C483FDA00ECA94A /* Client.m in Sources */,
+				EDAB88931C48663F005271F4 /* whatever.m in Sources */,
 				ED2667D91C48406B00ECA94A /* Associate.m in Sources */,
 				ED2667D01C48345F00ECA94A /* Lawyer.m in Sources */,
 			);
@@ -261,6 +267,7 @@
 				ED2667CD1C48345200ECA94A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
